@@ -1,6 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
+  "homepage": "http://github.com/saeedahmed786/dashoard",
   "private": true,
   "engines": {
     "npm": "6.14.9",
