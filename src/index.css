@@ -1,0 +1,318 @@
+
+body {
+font-family: Nunito Sans;
+font-weight: bold;
+font-size: 16px;
+background : #FAFAFA !important;
+
+}
+
+
+nav ul > li {
+  height: 57px;
+  width: 80px;
+  left: 1082px;
+  top: 50px;
+  border-radius: 35px;
+  margin-right: 30px;
+  padding-top: 8px;
+  background: #FFFFFF;
+box-shadow: 10px 0px 75px rgba(155, 155, 155, 0.08);
+border-radius: 35px;
+
+}
+
+
+.navbar-brand {
+  position: absolute;
+width: 12px;
+height: 34px;
+left: 57px;
+top: 11px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+.logos {
+  position: absolute;
+  width: 123px;
+  height: 56px;
+  left: 90px;
+  top: 11px;
+  
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 28px;
+  padding-left: 34px;
+}
+ 
+.ant-input {
+  background: #FFFFFF;
+box-shadow: 10px 0px 75px rgba(155, 155, 155, 0.08);
+border-radius: 35px;
+border: none;
+}
+.ant-input-affix-wrapper:hover {
+   border: none;
+
+}
+.ant-input-affix-wrapper {
+  border: none;
+}
+
+.ant-input-affix-wrapper-focused {
+     border: none;
+    }
+    @media only screen and (min-width: 623px) {
+      .ant-tabs-tab:hover {
+        color: #FF8252 !important;
+    }
+  
+      .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #FF8252 !important;
+      }
+  
+      .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #FF8252 !important;
+        
+    }
+
+    .ant-tabs-tab {
+      color: gray;
+    }
+      
+    .ant-tabs-ink-bar {
+      background: #FF8252 !important;
+      width: 5px !important;
+      height: 40px !important;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-top: 8px;
+    }
+
+    .ant-tabs-nav-list {
+      background-color: white;
+      width: 210px;
+      height: 900px;
+      margin-top: 50px;
+      border-top-right-radius: 30px;
+    }
+    
+    .ant-tabs-content-holder {
+      margin-top: 45px;
+      margin-left: 40px !important;
+    }
+    
+    .ant-tabs-tab {
+      margin-bottom: 40px !important;
+    }
+      
+     
+    }
+   
+
+
+
+
+ 
+
+
+
+.dash:hover {
+   color: black !important;
+}
+
+
+
+.football {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 308px;
+  top: 220px;
+  
+  background: rgba(39, 195, 105, 0.1);
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.btns {
+width: 180px !important;
+height: 58px;
+background: #FF9153;
+margin-left: 140px;
+border-radius: 28.5px;
+margin-top: 60px;
+}
+
+.football2 {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 308px;
+  top: 460px;
+  
+  
+  background: rgba(39, 195, 105, 0.1);
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.btn2 {
+  width: 180px !important;
+  height: 58px;
+  background: silver;
+  margin-left: 140px;
+  border-radius: 28.5px;
+  margin-top: 55px;
+  }
+
+
+  .footballs-image {
+    border-radius: 20px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 308px;
+    top: 770px;
+    
+  }
+
+  .btn-game {
+    width: 180px !important;
+    height: 58px;
+    background: #FF9153;
+    border-radius: 28.5px;
+    margin-top: 60px;
+  }
+
+  .list li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 8px;
+
+  }
+
+  .jumbotron {
+    height: 200px;
+  }
+
+
+  p {
+    font-size: 11px;
+  }
+
+  .fixed-btn {
+    width: 43px;
+    height: 48px;
+    background: #FF8252;
+    color: white;
+    padding-bottom: -4px;
+    border-radius: 20px;
+    margin-left: 90vw;
+  }
+
+  .mob-dash {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1242px) {
+     .btns, .btn2{
+      margin-left: 55px;
+      width: 15px;
+      height: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  @media only screen and (max-width: 1016px) {
+    .nav-display{
+     width: 50px;
+     height: 30px;
+     padding-top: 0;
+   }
+ }
+ @media only screen and (min-width: 992px) {
+  .nav-noti{
+     display: none;
+
+ }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-display{
+     display: none;
+ }
+  #create-noti {
+   display: none;
+ }
+
+ .btns, .btn2 {
+   margin-left: 100px;
+   margin-top: 10px;
+ }
+
+ .footballs-image {
+   margin-top: -10px;
+   width: 100px;
+   height: 100px;
+ }
+
+ .img-cont {
+   margin-left: 100px;
+ }
+}
+@media only screen and (max-width: 794px) {
+  #search {
+       display: none;
+ }
+}
+@media only screen and (max-width: 623px) {
+  .main-dash {
+    display: none;
+  }
+  .mob-dash {
+       display: inherit; 
+       position: -webkit-sticky;
+       top: 100vh;
+ }
+ .ant-tabs-tab:hover {
+  color: #FF8252 !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FF8252 !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FF8252 !important;
+  
+}
+
+.ant-tabs-tab {
+color: gray;
+}
+.ant-tabs-ink-bar {
+  display: none;
+}
+
+.footballs-image {
+  margin-left: -240px;
+  margin-top: 10px;
+}
+.football {
+  margin-left: -250px;
+  margin-top: 10px;
+}
+.football2 {
+  margin-left: -250px;
+  margin-top: 10px;
+}
+
+
+
+}
+
+
+
+
+
+
